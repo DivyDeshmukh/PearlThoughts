@@ -28,7 +28,6 @@ export const RecurringPatternProvider = ({ children }: RecurringPatternProviderP
     });
   
     const updateRecurringPattern = (newPattern: Partial<RecurringPattern>) => {
-      // console.log(newPattern);
       
       setRecurringPattern((prevPattern) => ({ ...prevPattern, ...newPattern }));
     };
