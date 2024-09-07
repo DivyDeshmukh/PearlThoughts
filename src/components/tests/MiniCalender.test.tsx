@@ -1,3 +1,5 @@
+// So, I have not done testing before, but I tried for this assignment and written this test. But it is not wokring as expected I was using jest, react-testing lib, configured babel also but they were causing pproblems so I uninstalled all of them
+
 // import { render, screen } from '@testing-library/react';
 // import MiniCalendar from '../MiniCalender'; 
 // import getDaysInMonth from '@/helpers/getDaysInMonth'; 
@@ -37,4 +39,3 @@
 //   });
 
 // });
-// Tried but currently did not working
