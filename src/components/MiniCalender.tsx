@@ -12,10 +12,6 @@ interface MiniCalendarProps {
 const MiniCalendar: React.FC<MiniCalendarProps> = ({ startDate }) => {
   const { recurringPattern } = useRecurringPattern();
   const daysInMonth = getDaysInMonth(new Date());
-  
-  useEffect(() => {
-    console.log("RecurringPatternMiniCal: ", recurringPattern, "DaysInMiniCal", daysInMonth); 
-  }, [recurringPattern]);
 
   return (
     <div className="grid grid-cols-7 gap-1">
